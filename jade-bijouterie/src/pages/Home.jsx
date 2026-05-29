@@ -1,6 +1,7 @@
 import banner1 from '../assets/banner1.png'
 import banner2 from '../assets/banner2.png'
 import product1 from '../assets/producto1.jpg'
+import { Link } from 'react-router-dom'
 
 function Home() {
   return (
@@ -40,9 +41,9 @@ function Home() {
               Unique and delicate handmade designs.
             </p>
 
-            <a href='/products' className='btn btn-warning text-white'>
+            <Link to='/products' className='btn btn-warning text-white'>
               View Collection
-            </a>
+            </Link>
           </div>
 
           <div className='col-lg-6 text-center'>
