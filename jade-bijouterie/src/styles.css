@@ -1,0 +1,351 @@
+body {
+  background-color: #fff;
+  color: #444;
+  font-family: Arial, sans-serif;
+}
+
+.brand-logo {
+  color: #b88a1d;
+  font-weight: bold;
+}
+
+.carousel-image {
+  height: 600px;
+  object-fit: cover;
+}
+
+.main-title {
+  color: #b88a1d;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-text {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+.featured-image {
+  border-radius: 20px;
+}
+
+.section-title {
+  color: #b88a1d;
+}
+
+.product-card {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.product-image {
+  height: 300px;
+  object-fit: cover;
+}
+
+.product-price {
+  color: #b88a1d;
+  font-size: 1.2rem;
+}
+
+.footer {
+  background-color: #fff7f8;
+}
+
+@media (max-width: 768px) {
+  .main-title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .hero-text {
+    text-align: center;
+  }
+
+  .carousel-image {
+    height: 300px;
+  }
+}
+
+.review-card {
+  border-radius: 20px;
+  background-color: #fff7f8;
+}
+
+.social-icons a {
+  color: #b88a1d;
+  font-size: 1.5rem;
+}
+
+.footer {
+  background-color: #fff7f8;
+}
+
+.tips-list li {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+.success-box {
+  background-color: #fff7f8;
+}
+
+.spinner-border {
+  margin-right: 10px;
+}
+
+.tips-page {
+  background: linear-gradient(
+    to bottom,
+    #fff7f8,
+    #ffffff
+  );
+}
+
+.tips-subtitle {
+  color: #777;
+  font-size: 1.1rem;
+}
+
+.tip-card {
+  border-radius: 25px;
+  transition: 0.3s ease;
+  overflow: hidden;
+}
+
+.tip-card:hover {
+  transform: translateY(-10px);
+}
+
+.tip-icon {
+  font-size: 4rem;
+}
+
+.tip-title {
+  color: #b88a1d;
+  margin-bottom: 15px;
+}
+
+.tip-description {
+  color: #666;
+  line-height: 1.6;
+}
+
+.tips-banner {
+  background: linear-gradient(
+    135deg,
+    #f8d7da,
+    #fff7f8
+  );
+
+  padding: 60px 30px;
+
+  border-radius: 30px;
+}
+
+.tips-banner h2 {
+  color: #b88a1d;
+  font-size: 2.5rem;
+}
+
+.tips-banner p {
+  color: #555;
+  max-width: 700px;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+
+  .tips-banner h2 {
+    font-size: 2rem;
+  }
+
+  .tip-icon {
+    font-size: 3rem;
+  }
+
+}
+
+.reviews-page {
+  background: linear-gradient(
+    to bottom,
+    #ffffff,
+    #fff7f8
+  );
+}
+
+.reviews-subtitle {
+  color: #777;
+  font-size: 1.1rem;
+}
+
+.review-card-modern {
+  border-radius: 25px;
+  transition: 0.3s ease;
+  overflow: hidden;
+  background-color: white;
+}
+
+.review-card-modern:hover {
+  transform: translateY(-10px);
+}
+
+.review-avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #fff7f8;
+}
+
+.review-stars {
+  font-size: 1rem;
+}
+
+.review-comment {
+  color: #666;
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+.reviews-banner {
+  background: linear-gradient(
+    135deg,
+    #fff0f3,
+    #fff7f8
+  );
+
+  padding: 70px 40px;
+
+  border-radius: 30px;
+}
+
+.reviews-banner h2 {
+  color: #b88a1d;
+  font-size: 2.5rem;
+}
+
+.reviews-banner p {
+  color: #555;
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+
+  .reviews-banner h2 {
+    font-size: 2rem;
+  }
+
+  .review-avatar {
+    width: 60px;
+    height: 60px;
+  }
+
+}
+
+.about-page {
+  background: linear-gradient(
+    to bottom,
+    #fff7f8,
+    #ffffff
+  );
+}
+
+.about-hero {
+  max-width: 800px;
+  margin: auto;
+}
+
+.about-subtitle {
+  color: #777;
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+.about-image {
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+.about-title {
+  color: #b88a1d;
+  font-size: 2.2rem;
+}
+
+.about-text {
+  color: #666;
+  line-height: 1.9;
+  font-size: 1.05rem;
+}
+
+.about-card {
+  border-radius: 30px;
+  transition: 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-10px);
+}
+
+.about-icon {
+  font-size: 4rem;
+}
+
+.about-card-title {
+  color: #b88a1d;
+  margin-bottom: 20px;
+}
+
+.about-card-text {
+  color: #666;
+  line-height: 1.8;
+}
+
+.about-values {
+  margin-top: 80px;
+}
+
+.value-box {
+  background-color: white;
+  padding: 40px 25px;
+  border-radius: 25px;
+  height: 100%;
+  transition: 0.3s ease;
+}
+
+.value-box:hover {
+  transform: translateY(-10px);
+}
+
+.value-icon {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.value-box h4 {
+  color: #b88a1d;
+  margin-bottom: 15px;
+}
+
+.value-box p {
+  color: #666;
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+
+  .about-title {
+    font-size: 1.8rem;
+  }
+
+  .about-subtitle {
+    font-size: 1rem;
+  }
+
+  .about-icon {
+    font-size: 3rem;
+  }
+
+}
