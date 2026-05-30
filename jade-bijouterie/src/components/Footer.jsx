@@ -13,7 +13,7 @@ function Footer() {
         </h3>
 
         <p className='mt-3'>
-          Handmade jewelry crafted with elegance and love.
+          Joyas hechas a mano con elegancia y amor.
         </p>
 
         <div className='d-flex justify-content-center gap-4 mt-4 social-icons'>

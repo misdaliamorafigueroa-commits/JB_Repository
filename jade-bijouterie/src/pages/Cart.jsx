@@ -30,12 +30,12 @@ function Cart() {
     <section className='container py-5'>
 
       <h1 className='section-title mb-5'>
-        Shopping Cart
+        Carrito de Compras
       </h1>
 
       {cartItems.length === 0 ? (
         <div className='card p-5 text-center shadow border-0'>
-          <h4>Your cart is empty</h4>
+          <h4>Tu carrito está vacío</h4>
         </div>
       ) : (
         <>
@@ -59,7 +59,7 @@ function Cart() {
                   className='btn btn-danger'
                   onClick={() => removeFromCart(item.id)}
                 >
-                  Remove
+                  Eliminar
                 </button>
 
               </div>
@@ -79,19 +79,19 @@ function Cart() {
             <input
               type='text'
               className='form-control mb-3'
-              placeholder='Cardholder Name'
+              placeholder='Nombre del titular de la tarjeta'
             />
 
             <input
               type='text'
               className='form-control mb-3'
-              placeholder='Card Number'
+              placeholder='Número de tarjeta'
             />
 
             <input
               type='text'
               className='form-control mb-3'
-              placeholder='Expiration Date'
+              placeholder='Fecha de expiración'
             />
 
             <input
@@ -105,7 +105,7 @@ function Cart() {
                 className='btn btn-warning text-white'
                 onClick={handleCheckout}
               >
-                Pay Now
+                Pagar ahora
               </button>
             ) : (
               <button
@@ -114,7 +114,7 @@ function Cart() {
               >
                 <span className='spinner-border spinner-border-sm'></span>
 
-                Processing Payment...
+                Procesando pago...
               </button>
             )}
 
@@ -125,15 +125,15 @@ function Cart() {
             <div className='card p-5 shadow border-0 mt-5 success-box'>
 
               <h2>
-                Purchase Completed
+                Compra completada
               </h2>
 
               <p className='mt-3'>
-                Thank you for shopping at Jade Bijouterie.
+                Gracias por comprar en Jade Bijouterie.
               </p>
 
               <h4 className='mt-4'>
-                Invoice
+                Factura
               </h4>
 
               <hr />
@@ -147,7 +147,7 @@ function Cart() {
               <hr />
 
               <h3>
-                Total Paid: ${getTotal()}
+                Total pagado: ${getTotal()}
               </h3>
 
             </div>

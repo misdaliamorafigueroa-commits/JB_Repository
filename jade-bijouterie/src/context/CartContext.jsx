@@ -10,7 +10,7 @@ function CartProvider({ children }) {
   const addToCart = product => {
     setCartItems([...cartItems, product])
 
-    toast.success(`${product.name} added to cart`)
+    toast.success(`${product.name} Agregado al Carrito`)
   }
 
   const removeFromCart = id => {

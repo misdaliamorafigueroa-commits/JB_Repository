@@ -34,15 +34,15 @@ function Home() {
         <div className='row align-items-center'>
           <div className='col-lg-6'>
             <h1 className='main-title'>
-              Handmade accessories created to highlight your style
+              Accesorios artesanales creados para resaltar tu estilo
             </h1>
 
             <p className='hero-text'>
-              Unique and delicate handmade designs.
+              Diseños únicos y delicados elaborados a mano.
             </p>
 
             <Link to='/products' className='btn btn-warning text-white'>
-              View Collection
+              Ver Colección
             </Link>
           </div>
 

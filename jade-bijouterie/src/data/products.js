@@ -9,86 +9,85 @@ import product8 from '../assets/producto8.jpg'
 import product9 from '../assets/producto9.jpg'
 import product10 from '../assets/producto10.jpg'
 
-
 const products = [
   {
     id: 1,
-    name: 'Elegant Earrings',
+    name: 'Anillo Geométrico Dorado',
     price: '$12',
     image: product1,
-    description: 'Handmade elegant earrings.'
+    description: 'Diseño moderno con detalles geométricos elegantes.'
   },
 
   {
     id: 2,
-    name: 'Rose Gold Bracelet',
+    name: 'Anillo Dorado Premium',
     price: '$18',
     image: product2,
-    description: 'Elegant gold bracelet.'
+    description: 'Acabado brillante y sofisticado para cualquier ocasión.'
   },
 
   {
     id: 3,
-    name: 'Pearl Necklace',
+    name: 'Anillo Minimalista',
     price: '$20',
     image: product3,
-    description: 'Beautiful pearl necklace.'
+    description: 'Diseño delicado y moderno inspirado en la elegancia.'
   },
 
   {
     id: 4,
-    name: 'Artisan Ring',
+    name: 'Aretes Estrella Plateados',
     price: '$15',
     image: product4,
-    description: 'Handcrafted artisan ring.'
+    description: 'Aretes brillantes con un diseño inspirado en estrellas.'
   },
 
   {
     id: 5,
-    name: 'Golden Necklace',
+    name: 'Pulsera Multicolor Artesanal',
     price: '$22',
     image: product5,
-    description: 'Modern luxury necklace.'
+    description: 'Pulsera hecha a mano con cuentas coloridas y vibrantes.'
   },
 
   {
     id: 6,
-    name: 'Natural Bracelet',
+    name: 'Pulsera Bohemia Natural',
     price: '$14',
     image: product6,
-    description: 'Natural handmade bracelet.'
+    description: 'Accesorio artesanal con estilo bohemio y auténtico.'
   },
 
   {
     id: 7,
-    name: 'Flower Earrings',
+    name: 'Pulsera Floral de Cristales',
     price: '$16',
     image: product7,
-    description: 'Floral elegant earrings.'
+    description: 'Diseño floral con cristales de colores llamativos.'
   },
 
   {
     id: 8,
-    name: 'Handmade Necklace',
+    name: 'Aretes Estrella Elegance',
     price: '$25',
     image: product8,
-    description: 'Premium handmade accessory.'
+    description: 'Aretes sofisticados con acabado brillante y refinado.'
   },
 
   {
     id: 9,
-    name: 'Luxury Bracelet',
+    name: 'Anillo Turquesa Exclusivo',
     price: '$19',
     image: product9,
-    description: 'Modern bracelet design.'
+    description: 'Piedra turquesa central con detalles delicados.'
   },
 
   {
     id: 10,
-    name: 'Elegant Set',
+    name: 'Aretes Pluma Plateados',
     price: '$30',
     image: product10,
-    description: 'Complete jewelry set.'
+    description: 'Elegantes aretes en forma de pluma con acabado plateado.'
   }
 ]
 

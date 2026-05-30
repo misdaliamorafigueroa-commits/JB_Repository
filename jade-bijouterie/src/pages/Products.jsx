@@ -5,7 +5,7 @@ function Products() {
   return (
     <section className='container py-5'>
       <h1 className='section-title text-center mb-5'>
-        Our Products
+        Nuestra Colección
       </h1>
 
       <div className='row g-4'>

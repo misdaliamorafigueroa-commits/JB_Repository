@@ -1,6 +1,10 @@
 import { Link } from 'react-router-dom'
+import { FaShoppingCart } from 'react-icons/fa'
+import { useContext } from 'react'
+import { CartContext } from '../context/CartContext'
 
 function Navbar() {
+  const { cartItems } = useContext(CartContext)
   return (
     <nav className='navbar navbar-expand-lg navbar-light bg-white shadow-sm'>
       <div className='container'>
@@ -21,43 +25,54 @@ function Navbar() {
           <ul className='navbar-nav ms-auto'>
             <li className='nav-item'>
               <Link className='nav-link' to='/'>
-                Home
+                Inicio
               </Link>
             </li>
 
             <li className='nav-item'>
               <Link className='nav-link' to='/about'>
-                About
+                Nosotros
               </Link>
             </li>
 
             <li className='nav-item'>
               <Link className='nav-link' to='/products'>
-                Products
+                Productos
               </Link>
             </li>
 
             <li className='nav-item'>
               <Link className='nav-link' to='/tips'>
-                Tips
+                Consejos
               </Link>
             </li>
 
             <li className='nav-item'>
               <Link className='nav-link' to='/reviews'>
-                Reviews
+                Reseñas
               </Link>
             </li>
 
             <li className='nav-item'>
               <Link className='nav-link' to='/contact'>
-                Contact
+                Contacto
               </Link>
             </li>
 
             <li className='nav-item'>
-              <Link className='nav-link' to='/cart'>
-                Cart
+              <Link
+                to="/cart"
+                className="nav-link d-inline-flex align-items-center"
+              >
+                <div className="contenedor-carrito">
+                  <FaShoppingCart size={24} />
+
+                  {cartItems.length > 0 && (
+                    <span className="contador-carrito">
+                      {cartItems.length}
+                    </span>
+                  )}
+                </div>
               </Link>
             </li>
           </ul>

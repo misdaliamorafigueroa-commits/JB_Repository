@@ -28,7 +28,7 @@ function ProductCard({ product }) {
           className='btn btn-warning text-white'
           onClick={() => addToCart(product)}
         >
-          Add to Cart
+          Agregar al Carrito
         </button>
 
       </div>
